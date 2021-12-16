@@ -1,12 +1,218 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test commit</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+    <title>ohmyfood</title>
+
+
 </head>
+
 <body>
-    test 1
+
+    <div id="bloc_page">
+        <header>
+            <div id="header">
+
+                <div id="header_logo"> 
+                    <img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood"> <!--logo ohmyfood noir-->
+                </div>
+
+                <div id="header_location"> 
+                    <div id="header_location_icon">
+                        <i class="fas fa-map-marker-alt"></i> <!--pointeur localisation-->
+                    </div>
+                    <div id="header_location_text">
+                        <p>Paris, Belleville</p> <!--texte localisation localisation-->
+                    </div>
+                </div>
+<!--premiere partie  titres et entetes --------------------------------------------------------------------------------->
+                <div id="header_calltoaction">
+                    <h2>Réservez le menu qui vous convient</h2> <!--entête-->
+                    <p>Découvrez des restaurants d'exception, séléctionnés pas nos soins.</p> <!--sous titre-->
+                    <a href="#">Explorer nos restaurants</a> <!--lien vers la section restaurant (ancrage) -->
+                </div>
+            </div>
+        </header>
+        <div class="start_page">
+            <span class="loader"></span> 
+        </div>
+<!--fin premiere partie------------------------------------------------------------------------------------------------>
+
+<!--deuxieme partie  fonctionnement step by step chiffre type liste de puce puis icone puis texte 3 bulles-------------->
+<section>
+    <article id="functioning">
+        <div id="functioning_title">
+            <h2>Fonctionnement</h2> <!--titre -->
+        </div>
+
+        <div id="functioning_content">
+            
+            <!--bulle 1-->
+            <div class="functioning_content_number"> <!--chiffre liste-->
+                <p>1</p>
+            </div>
+            <div class="functioning_content_box">
+                <div class="functioning_content_box_icon">
+                    <i class="fas fa-mobile-alt"></i> <!--icone-->
+                </div>
+                <a>Choisissez un restaurant</a> <!--texte descriptif-->
+            </div>
+
+
+            <!--bulle 2-->
+            <div class="functioning_content_number"> <!--bulle 2-->
+                <p>2</p>
+            </div>
+            <div class="functioning_content_box">
+                <div class="functioning_content_box_icon">
+                    <i class="fas fa-list"></i>
+                </div>
+                <a>Composez votre menu</a>
+            </div>
+
+            <!--bulle 3-->
+            <div class="functioning_content_number">
+                <p>3</p>
+            </div>
+            <div class="functioning_content_box">
+                <div class="functioning_content_box_icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <a>Dégustez au restaurant</a>
+            </div>
+        </div>
+    </article>
+
+            <!--partie 3 présentation des restaurants vignettes------------------------------------>
+            <aside id="restaurants">
+
+                <div id="restaurants_titre">
+                    <h2>Restaurants</h2> <!--titre partie 3-->
+                </div>
+
+                <div id="restaurants_content">
+
+                    <div class="restaurant_content_box">
+                        <div class="restaurant_content_box_button">
+                            <p>Nouveau</p> <!--encart "nouveau"-->
+                        </div>
+
+                        <a href="menu_palette.html" class="restaurant_content_box_1">
+                            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+                            <div class="restaurant_content_box_description">
+                                <div class="restaurant_content_box_description_text">
+                                    <strong>La palette du goût</strong> <!--nom du restaurant -->
+                                    <span>Ménilmontant</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"> <!--icone coeur animé-->
+                                        <i class="fas fa-heart"></i>
+                                    </i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="restaurant_content_box">
+                        <div class="restaurant_content_box_button">
+                            <p>Nouveau</p> <!--encart "nouveau"-->
+                        </div>
+                        <a href="menu_note.html" class="restaurant_content_box_2">
+                            <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
+                            <div class="restaurant_content_box_description">
+                                <div class="restaurant_content_box_description_text">
+                                    <strong>La note enchantée</strong> <!--nom du restaurant -->
+                                    <span>Charonne</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart"> <!--icone coeur animé-->
+                                        <i class="fas fa-heart"></i>
+                                    </i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="restaurant_content_box">
+                        <a href="menu_francaise.html" class="restaurant_content_box_3">
+                            <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                            <div class="restaurant_content_box_description">
+                                <div class="restaurant_content_box_description_text">
+                                    <strong>À la française</strong> <!--nom du restaurant -->
+                                    <span>Cité Rouge</span>
+                                </div>
+                                <div class="heart">
+                                    <i class="far fa-heart">
+                                        <i class="fas fa-heart"></i> <!--icone coeur animé-->
+                                    </i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="restaurant_content_box">
+                        <a href="menu_delice.html" class="restaurant_content_box_4">
+                            <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
+                            <div class="restaurant_content_box_description">
+                                <div class="restaurant_content_box_description_text">
+                                    <strong>Le délice des sens</strong> <!--nom du restaurant -->
+                                    <span>Folie-Méricourt</span>
+                                </div>
+                                <div class="heart"> 
+                                    <i class="far fa-heart"> <!--icone coeur animé-->
+                                        <i class="fas fa-heart"></i>
+                                    </i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </div>
+    <!--footer ------------------------------------------------------------------------------------------>
+    <footer>
+        <div id="footer">
+            <div id="footer_logo">
+                <img src="images/logo/ohmyfood_white@2x.svg" alt="logo ohmyfood"> <!--logo ohmy food blanc -->
+            </div>
+
+            <div id="footer_info">
+                <div class="footer_text_with_icon">
+                    <div class="footer_info_icon"> <!--icone couverts-->
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <p>Proposer un restaurant</p>
+                </div>
+
+                <div class="footer_text_with_icon">
+                    <div class="footer_info_icon">
+                        <i class="fas fa-hands-helping"></i> <!--icone deux mains -->
+                    </div>
+                    <p>Devenir partenaire</p>
+                </div>
+
+                <div class="footer_text_without_icon"> <!--texte footer simple-->
+                    <p>Mentions légales</p>
+                </div>
+
+                <div class="footer_text_without_icon"> <!--icone footer simple -->
+                    <a href="mailto:"> Contact</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
 </body>
+
+
 </html>
